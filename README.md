@@ -1,18 +1,18 @@
-#API Rest 
+# API Rest 
 aplicacion que te permite crear notas 
 
-#Crear una nota nueva 
+## Crear una nota nueva 
 
-Solicitus [POST] /notas
-    {
+## Solicitus [POST] /notas
+   ```[javaScript] {
         nota:{
             "title": "Mi API REST",
             "description":"Una API REST" ,
             "type": "js",
             "body": "nota NodeJs"
         }
-    }
-Respuesta [GET] /nota
+    }```
+## Respuesta [GET] /nota
 {
     nota:{
             "id": 1,
